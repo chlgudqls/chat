@@ -96,5 +96,6 @@ public class Client
 				}
 			}
 		};
+		Main.threadPool.submit(thread);
 	}
 }
