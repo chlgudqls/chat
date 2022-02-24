@@ -1,0 +1,89 @@
+@charset "EUC-KR";
+table{
+	border-collapse: collapse;				  
+}	
+input:focus{
+	background-color:#ADD594;
+}
+#row:hover{
+	background-color:rgba(0, 0, 0, 0.1);
+}
+#scroll{
+	overflow:auto;
+	display:block; 
+	width:100%; 
+	height: 100%; 
+	border:none;
+}
+.scroll::-webkit-scrollbar{
+	
+	width:8px;					
+	background-color: #BFCBD1;
+}
+.scroll::-webkit-scrollbar-thumb{
+	background-color: #35517C;
+}
+tr:first-child{
+	text-align:center
+}
+td:last-child{
+	text-align:center
+}
+#retire{
+	text-align:center
+}
+#vacation{
+	text-align:center
+}
+     .modal {
+  position:absolute;
+  top: 50px;;
+  left: 10px;
+        width: 0px;
+        height: 550px;				
+     text-align: center;
+     background-color: rgb(255, 255, 255);
+     border-radius: 10px;
+     box-shadow: 0 2px 3px 0 rgba(34, 36, 38, 0.15);
+  z-index:100;	  
+  display:none;     
+  font-size:20px;
+
+     }
+     
+     .allBG
+     {
+     	  position : fixed;
+     	  top: 7px;
+     	  left: 7px;
+     	  width: 350px;
+     	  height: 600px;
+     	  background-color: black;
+     	  opacity: 0.5;	  
+     	  z-index:100;	  
+  display:none
+     }
+     
+     
+#dotw
+{
+	width:110px;
+	height:20px;
+	display:inline-block;
+	font-size: 13px;
+	text-align : center;
+	background-color : #87ceeb;
+	line-height : 20px;
+	margin : 1px 1px 1px 1px;
+	
+}
+#day
+{
+	width:110px;
+	height:100px;
+	display:inline-block;
+	background-color : #f5f9fa;
+	font-size: 13px;
+	margin : 1px
+	
+}     
